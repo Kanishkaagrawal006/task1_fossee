@@ -1,4 +1,4 @@
-from my_tree import *
+from general_tree import *
 
 # ---------- LOAD TREE ----------
 root = build_tree_from_yaml("test.yaml")
