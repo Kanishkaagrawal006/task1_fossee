@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my_tree"
+name = "my-tree"
 version = "0.1.0"
 description = "General tree implementation with YAML support"
 readme = "README.md"
@@ -12,6 +12,5 @@ authors = [
   { name="Kanishka", email="kanishkaa182@gmail.com" }
 ]
 
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["my_tree*"]
+[tool.setuptools]
+packages = ["my_tree"]
