@@ -12,5 +12,6 @@ authors = [
   { name="Kanishka", email="kanishkaa182@gmail.com" }
 ]
 
-[tool.setuptools]
-packages = ["my_tree"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["general_tree*"]
