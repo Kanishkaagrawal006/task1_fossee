@@ -1,0 +1,36 @@
+value: 1
+children:
+  - value: 2
+    children:
+      - value: 5
+        children:
+          - value: 11
+          - value: 12
+      - value: 6
+      - value: 7
+        children:
+          - value: 13
+          - value: 14
+          - value: 15
+  - value: 3
+    children:
+      - value: 8
+        children:
+          - value: 16
+          - value: 17
+      - value: 9
+      - value: 10
+        children:
+          - value: 18
+          - value: 19
+  - value: 4
+    children:
+      - value: 20
+      - value: 21
+        children:
+          - value: 22
+          - value: 23
+          - value: 24
+            children:
+              - value: 25
+              - value: 26
